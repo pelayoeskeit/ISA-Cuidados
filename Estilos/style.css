@@ -446,6 +446,12 @@ form button:hover {
         width: 90%;
     }
 
+    header ul li {
+        border-bottom: 2px solid #F4F2EF;
+        padding-bottom: 5px;
+        margin-top: 2px;
+    }
+
     #servCalidad article {
         width: 80%;
     }
