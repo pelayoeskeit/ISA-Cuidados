@@ -1,0 +1,531 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #D8D1BD;
+    height: 170px;
+}
+
+nav {
+    display: flex;
+}
+
+
+header img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: #E68C3A;
+    font-weight: bold;
+}
+
+header ul li {
+    display: inline-block;
+    padding-right: 80px;
+}
+
+header span a {
+    color: #F4F2EF;
+}
+
+nav a:hover:not(span a) {
+    color: #E76020;
+}
+
+#manos {
+    width: 100%;
+    position: relative;
+}
+
+#manos img {
+    width: 100%;
+}
+
+
+
+#textFoto {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: #F4F2EF;
+    text-shadow: 2px 2px 2px #2a472c;
+    font-size: x-large;
+}
+
+#buton {
+    padding-top: 45px;
+    font-size: smaller;
+    text-align: center;
+}
+
+#buton a {
+    text-decoration: none;
+    color: white;
+    background-color: #E68C3A;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+#buton a:hover {
+    box-shadow: 5px 5px 5px rgb(59, 59, 59);
+    background-color: #E76020;
+    padding: 16px;
+}
+
+#section1 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#section1 h2 {
+    text-align: center;
+    border-bottom: 2px solid #E76020;
+    margin-top: 50px;
+    color: #213E60;
+}
+
+#section1 img {
+    width: 10%;
+}
+
+#beny {
+    column-count: 2;
+}
+
+.ben {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.ben h1 {
+    background-color: #E68C3A;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: #F4F2EF;
+    padding: 15px;
+}
+
+.cuerp {
+    background-color: #F4F2EF;
+    border-radius: 7px;
+    color: #213E60;
+    padding-bottom: 20px;
+}
+
+#serv {
+    background-color: #F4F2EF;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#serv h2 {
+    padding-top: 30px;
+    color: #213E60;
+    text-shadow: 2px 2px 4px white;
+}
+
+#servicios {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 80px;
+}
+
+#servicios h1 {
+    color: #F4F2EF;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+#servicios article {
+    background-color: #D8D1BD;
+    border-radius: 10px;
+    padding: 20px;
+    color: #213E60;
+}
+
+#botonServ {
+    padding-bottom: 40px;
+}
+
+#botonServ a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #F4F2EF;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: #E0BB76;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#botonServ a:hover {
+    background-color: #E68C3A;
+    padding: 18px;
+}
+
+footer {
+    background-color: #E68C3A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img {
+    width: 150px;
+    border-radius: 15px;
+
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 80px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#fotoFina {
+    width: 100%;
+}
+
+#fotoFina img {
+    width: 100%;
+}
+
+#presentacion h2 {
+    color: #E68C3A;
+}
+
+#presentacion {
+    width: 50%;
+    margin: 0 auto;
+    color: #213E60;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#parrafos {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#parrafos p {
+    line-height: 2;
+}
+
+#servCalidad {
+    background-color: #F4F2EF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#servCalidad article {
+    width: 30%;
+    margin: 0 auto;
+    color: #213E60;
+    line-height: 2;
+}
+
+#servCalidad h2 {
+    color: #E68C3A;
+    border-bottom: 2px solid darkslategrey;
+}
+
+#listaServicios {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#listaServicios h2 {
+    text-align: center;
+    color: #E68C3A;
+}
+
+#listado {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+#listado img {
+    width: 250px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#listado article {
+    flex: 1;
+    border: 2px solid #E68C3A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#listado h3 {
+    width: 100%;
+    background-color: #F4F2EF;
+    text-align: center;
+    color: #213E60;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#listado p {
+    padding: 15px;
+    line-height: 2;
+}
+
+#contacta {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    line-height: 2;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+#atencion {
+    background-color: #F4F2EF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#atencion span {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#formulario {
+    background-color: #F4F2EF;
+    padding: 30px;
+}
+
+#textoContacto span {
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+form select {
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+form textarea {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+form button {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    background-color: #E68C3A;
+    color: white;
+
+}
+
+form button:hover {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    background-color: #E76020;
+    font-weight: bold;
+}
+
+/*Estilo responsive tablet*/
+@media (max-width: 768px) {
+    #contacta {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #servCalidad article {
+        width: 80%;
+    }
+
+    #presentacion {
+        width: 80%;
+    }
+
+    #parrafos {
+        gap: 20px;
+    }
+
+    #manos img {
+        width: 100%;
+    }
+
+    #textFoto {
+
+        font-size: 60%;
+        left: 10%;
+    }
+
+    #beny {
+        column-count: 1;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    #servicios {
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    footer ul li {
+        padding-right: 10px;
+
+    }
+
+    footer img {
+        width: 100px;
+    }
+
+    header nav {
+        flex-direction: row;
+
+    }
+
+    header nav ul li {
+        padding-right: 15px;
+    }
+
+    header nav {
+        margin-right: 100px;
+    }
+}
+
+/*Estilo responsive movil*/
+@media (max-width: 480px) {
+
+    #contacta {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #servCalidad article {
+        width: 80%;
+    }
+
+    #presentacion {
+        width: 80%;
+    }
+
+    #parrafos {
+        gap: 20px;
+    }
+
+    #manos img {
+        width: 100%;
+    }
+
+    #textFoto {
+        top: 1%;
+        font-size: 60%;
+        left: 3%;
+        font-size: 11px;
+    }
+
+    #beny {
+        column-count: 1;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    #section1 {
+        
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #section1 h2{
+        margin-top: 100px;
+        font-size: 18px;
+    }
+
+    .ben{
+        font-size: 11px;
+    }
+
+    #servicios {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 11px;
+    }
+
+
+    #servicios article {
+        background-color: D8D1BD;
+        border-radius: 10px;
+        padding: 20px;
+        font-weight: bolder;
+        color: #213E60;
+    }
+
+    #serv h2{
+        font-size: 18px;
+    }
+
+    footer img {
+        width: 100px;
+    }
+
+    header nav {
+        margin-left: 120px;
+    }
+
+
+
+
+
+
+
+
+
+}
